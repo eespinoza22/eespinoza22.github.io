@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 110px; 
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.welcome {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+section.welcome h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+section.welcome p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    max-width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.05);
+}
+
+.accordion {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.2em;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.accordion.active {
+    background-color: #0056b3;
+}
+
+.cv-text {
+    display: none;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 400px; /* Ancho del área */
+    height: 470px; /* Alto del área */
+    overflow: auto; /* Habilitar scroll para el contenido */
+    text-align: left;
+    font-size: 0.8em; /* Tamaño de fuente para que el texto quepa */
+    line-height: 1.2em;
+}
